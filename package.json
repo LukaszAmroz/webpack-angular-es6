@@ -1,13 +1,13 @@
 {
-  "name": "Madocs",
+  "name": "WebpackAngularES6",
   "version": "1.0.0",
-  "description": "Madocs application",
+  "description": "Webpack, Angular and ES6 app",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
     "server": "webpack-dev-server --history-api-fallback --inline --progress",
     "start": "npm run server && nodemon server.js"
   },
-  "author": "Craftware",
+  "author": "LukaszAmroz",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.5.0",
